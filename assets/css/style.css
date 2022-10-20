@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #264653;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    background-color: #E76F51;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right
+}
+
+header nav ul {
+    font-size: large;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+}
+
+aside {
+
+    background-color: #E9C46A;
+    padding: 60px;
+    text-align: left;
+    float: left;
+}
+
+
+#about-me {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #264653;
+}
+
+#my-work {
+    background-color: #2A9D8F;
+}
+
+
+.card-image {
+    width: 300px;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+
+.descriptor {
+    float: left;
+    margin-right: 25px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    flex-basis: auto;
+    width: 600px;
+     height: 600px;
+     margin: 20px auto;
+    background-color: #F4A261;
+}
+
+.descriptor {
+    color: black;
+    text-align: center;
+    margin: 20px; auto;
+}
+
+h3, p {
+    color: black;
+}
+
+
+#feature-project {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#feature-image {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+    align-content: stretch;
+
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main,
+    nav {
+      flex-direction: column;
+      column-count: 3;
+    }
+}
