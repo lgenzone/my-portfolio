@@ -16,9 +16,9 @@ You can easily naviagte my portfolio page by slecting which section you would li
 In the "My Work" section, click the project's image or description to be taken to the project's webpage. 
 My "Contact" section also included clickable links. Select the desired link to be directed. 
 
-```md
-![navigation bar](assets/images/portfolio-nav.png)
-```
+
+<img width="1422" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/113480175/197420786-3875180f-53a6-48e1-b54f-deeaf9ead3a9.png">
+
 
 ## Credit 
 
