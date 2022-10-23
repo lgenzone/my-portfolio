@@ -5,14 +5,14 @@ html {
 main {
     display: flex;
     flex-wrap: wrap;
-    background-color: #264653;
+    background-color: #2F3E46;
+    color: white;
 }
 
 header {
     position: relative;
     padding: 20px;
-    background-color: #E76F51;
-    color: white;
+    background-color: #CAD2C5;
 }
 
 header h1 {
@@ -23,7 +23,7 @@ header h1 {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float:right
+    float:right;
 }
 
 header nav ul {
@@ -34,19 +34,23 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 100px;
-    color: aliceblue;
 }
 
 a {
-    color: aliceblue;
+    text-decoration: none;
+    
 }
 
 aside {
 
-    background-color: #E9C46A;
+    background-color: #84A98C;
     padding: 60px;
     text-align: left;
     float: left;
+}
+
+h2 {
+    text-align: center;
 }
 
 
@@ -55,13 +59,25 @@ aside {
     height: 600px;
     margin: 20px auto;
     text-align: center;
-    background-color: #264653;
+    background-color: #2F3E46;
 }
+
 
 #my-work {
-    background-color: #2A9D8F;
+    background-color: #CAD2C5;
 }
 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#feature-image {
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+}
 
 .card-image {
     width: 300px;
@@ -72,34 +88,19 @@ aside {
 
 }
 
-
-.descriptor {
-    float: left;
-    margin-right: 25px;
-}
-
-#projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.descriptor h3, p {
+    float: center; 
+    margin-right: 20px auto;
+    color: white;
+    text-align: center;
+   
 }
 
 .project-card {
-    flex-basis: auto;
     width: 600px;
-     height: 600px;
      margin: 20px auto;
-    background-color: #F4A261;
-}
-
-.descriptor {
-    color: black;
-    text-align: center;
-    margin: 20px; auto;
-}
-
-h3, p {
-    color: black;
+    background-color: #2F3E46;
+    
 }
 
 
@@ -109,22 +110,70 @@ h3, p {
     margin-right: 20%;
 }
 
-#feature-image {
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 300px;
-    padding: 30px;
-    width: 500px;
-    height: 300px;
-    align-content: stretch;
-
-}
-
 @media screen and (max-width: 768px) {
     header,
     main,
     nav {
       flex-direction: column;
-      column-count: 3;
+      column-count: 1;
+      overflow-x: auto;
+    }
+
+    #contact {
+        width: 100%;
+    }
+    
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 1;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 1;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    header,
+    main,
+    nav {
+      flex-direction: column;
+      column-count: 1;
+      justify-content: center;
+      overflow-x: auto;
+    }
+    #contact {
+        width: 100%;
+    }
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 1;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 1;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
     }
 }
