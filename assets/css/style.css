@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     font-family:Arial, Helvetica, sans-serif;
-    
+
 }
 
 main {
@@ -142,9 +142,6 @@ h3, p {
         flex-direction: column;
         justify-content: center;
         flex-shrink: 1;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 60%;
     }
 
     #projects {
@@ -156,6 +153,8 @@ h3, p {
         margin-right: 10%;
         width: 60%;
     }
+
+    
 }
 
 @media screen and (max-width: 1025px) {
@@ -176,9 +175,6 @@ h3, p {
         justify-content: center;
         align-items: center;
         flex-shrink: 1;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 60%;
     }
 
     #projects {
