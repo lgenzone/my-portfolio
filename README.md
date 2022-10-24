@@ -10,7 +10,7 @@ N/A
 
 ## Usage 
 
-Use the following link to be taken to my portfolio page: //ADD DEPLOYED APP LINK 
+Use the following link to be taken to my portfolio page: https://lgenzone.github.io/my-portfolio/ 
 
 You can easily naviagte my portfolio page by slecting which section you would like to view. All of the sections are located in the top right corner of the page (screenshot below). When you click on one of these links, you will be taken to that section of my portfolio. 
 In the "My Work" section, click the project's image or description to be taken to the project's webpage. 
